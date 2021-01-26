@@ -20,6 +20,12 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     host: HOST,
     port: '8088'
   },
+  optimization: {
+    runtimeChunk: true,
+    splitChunks: {
+      chunks: 'all'
+    }
+  },
   plugins: [
     new HotModuleReplacementPlugin(),
     new CleanWebpackPlugin(),
