@@ -1,5 +1,5 @@
 # w5-v2
-This is webpack5 and vuew Project
+This is webpack5 and vue（vue2） Project
 
 * use module federation
 
